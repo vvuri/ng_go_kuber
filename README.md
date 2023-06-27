@@ -2,6 +2,55 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.0.
 
+## Install
+
+## Steps
+1. Node
+```shell
+brew update  
+brew install node
+node -v
+```
+2. Angular 14.2.0
+```shell
+npm uninstall -g @angular/cli
+npm cache clean
+npm cache verify
+sudo npm install -g @angular/cli@14.2.0
+ng --version
+```
+3. [Tailwindcss](https://tailwindcss.com/docs/installation)
+```shell
+npm install -D tailwindcss
+npx tailwindcss init 
+```
++ configure css and path
+4. Create project
+```shell
+ng new ng_go_kuber
+```
+5. [eslint](https://eslint.org/docs/latest/use/getting-started)
+```shell
+npm install --save-dev eslint
+touch .eslintrc.js
+npx eslint
+```
+6. git
+```shell
+git init
+
+```
+7. makefile
+8. golang api
+9. docker file build
+10. docker compose
+11. kind
+12. Prometheus
+13. Grafana
+14. Add metrics
+15. Auth JWT
+
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
@@ -11,8 +60,9 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The appli
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
 ## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- Run `npx eslint`
+- Run `ng build` to build the project. 
+- The build artifacts will be stored in the `dist/` directory.
 
 ## Running unit tests
 

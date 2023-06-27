@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'ng_go_kuber';
+  title = 'Angular&go kubernetes service';
 }
