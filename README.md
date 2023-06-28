@@ -38,7 +38,9 @@ npx eslint
 6. git
 ```shell
 git init
-
+git branch -m master main
+git remote add origin https://github.com/vvuri/ng_go_kuber.git
+git push -u origin main
 ```
 7. makefile
 8. golang api
