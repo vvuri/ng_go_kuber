@@ -34,6 +34,7 @@ ng new ng_go_kuber
 npm install --save-dev eslint
 touch .eslintrc.js
 npx eslint
+eslint ./tests/** 
 ```
 6. git
 ```shell
@@ -51,6 +52,12 @@ git push -u origin main
 13. Grafana
 14. Add metrics
 15. Auth JWT
+16. API test TS -> Mocha  
+```shell
+npm install --save-dev mocha
+ npm install --save-dev ts-node --force
+ npm install --save-dev @types/mocha --force
+```
 
 
 ## Development server
